@@ -40,8 +40,6 @@ class Solution(SolutionBase):
 
         for line in data:
             loc1, loc2, dist = re.findall(r"(.*?)\sto\s(.*?)\s=\s(\d+)", line)[0]
-            # g.add_edge(loc1, loc2, dist=int(dist))
-            # g.add_edge(loc2, loc1, dist=int(dist))
             locations.add(loc1)
             locations.add(loc2)
             distances[(loc1, loc2)] = int(dist)
