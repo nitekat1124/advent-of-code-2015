@@ -1,6 +1,6 @@
 # Advent of Code 2015
 
-My solutions for [Advent of Code 2015](https://adventofcode.com/2015/) using Python3
+My solutions to [Advent of Code 2015](https://adventofcode.com/2015/) using Python3
 
 ```
 usage: app.py [-h] -d day_number -p part_number
